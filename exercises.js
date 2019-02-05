@@ -30,6 +30,14 @@ console.log("The Tokyo Summer Olympics will be held in the year " + TokyoOlympic
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
 
+let lovesPrepClass = true;
+let eatsDonuts = true;
+let drinksGin = false;
+
+console.log("Loves Prep Class = " + lovesPrepClass);
+console.log("Eats donuts = " + eatsDonuts);
+console.log("Drinks Gin = " + drinksGin);
+
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
 
