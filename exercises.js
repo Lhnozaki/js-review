@@ -13,13 +13,19 @@ let yourName = 'Lewis Nozaki';
 let neighborName = 'Luke Fiorio';
 let teacherName = 'Vic Lee';
 
-console.log(yourName);
-console.log(neighborName);
-console.log(teacherName);
+console.log("Your Name: " + yourName);
+console.log("Neighbor's Name: " + neighborName);
+console.log("Teacher's Name: " + teacherName);
 
 /*2. Variable with a Number as their value.
 Declare variables named numberOfFloorsBurjKhalifa, TokyoOlympicsYear. Please assign the actual data for each variable.
 Console log each variable.*/
+
+let numberOfFloorsBurjKhalifa = 163;
+let TokyoOlympicsYear = 2020;
+
+console.log("The Burj Khalida has " + numberOfFloorsBurjKhalifa + " floors.");
+console.log("The Tokyo Summer Olympics will be held in the year " + TokyoOlympicsYear);
 
 /*3. Variables with Boolean values
 Declare variables named lovesPrepClass, eatsDonuts, drinksGin.  Console log each variable.*/
