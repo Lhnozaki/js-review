@@ -107,6 +107,12 @@ b) a string and a number "three" and 3
 
 console log each variable*/
 
+let same = 'Racecar';
+console.log(same === 'racecar');
+
+let sameTwo = 'three';
+console.log(sameTwo === 3);
+
 /*12.  Declare a literal object named "hotel" with properties and values set to:
 
     name    => "Hilton"
