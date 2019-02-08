@@ -157,6 +157,14 @@ Add a property named contents and set it to be an empty array
 
 console log the object*/
 
+let bigBox = {};
+
+bigBox.size = Math.floor(Math.random() * 10);
+bigBox.color = 'Cornflower Blue';
+bigBox.contents = [];
+
+console.log(bigBox);
+
 /*15.  Declare a literal object named "colorMeBadd" with properties and values set to:
 
    iro        => [literal object]
