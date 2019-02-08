@@ -272,6 +272,17 @@ console.log(contentFiller(bigBox));
 
 /*22.  Declare a function named firstReverse which takes a single parameter str.  This function will take a string parameter being passed in and return the string in reverse order.*/
 
+let how = "how now brown cow";
+
+function firstReverse(str){
+   let step1 = str.split(' ');
+   let step2 = step1.reverse();
+   let step3 = step2.join(' ');
+   return step3;
+}
+
+console.log(firstReverse(how));
+
 /*23. Declare a function named letterCap which takes a single parameter str. This function will capitalize the first letter of the string you pass in to invoke the function. 
 */
 
