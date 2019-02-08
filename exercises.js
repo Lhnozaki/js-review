@@ -91,10 +91,15 @@ india.pop();
 console.log(india);
 
 /*10. Removing an element from an array into a new array. 
-Removethe first two elements in the snacks array and return a new array.
+Remove the first two elements in the snacks array and return a new array.
 Console log the new variable. */
 
 var snacks = ["peanut butter cup oreo", "birthday cake oreo", "banana split oreo", "watermelon oreo", "cookie dough oreo", "creamsicle oreo"];
+
+let newArr = [];
+
+newArr.push(snacks[0], snacks[1]);
+console.log(newArr);
 
 /*11. Declare two variables with names of your choosing and use the triple comparison operator (===) to compare:
 a) two strings "Racecar" and "racecar"
