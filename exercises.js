@@ -286,4 +286,16 @@ console.log(firstReverse(how));
 /*23. Declare a function named letterCap which takes a single parameter str. This function will capitalize the first letter of the string you pass in to invoke the function. 
 */
 
+let sentence = "success will be yours";
+
+function letterCap(str){
+   let step1 = str.charAt(0);
+   let step2 = step1.toUpperCase();
+   let step3 = str.slice(1);
+   let step4 = step2 + step3;
+   return step4;
+}
+
+console.log(letterCap(sentence));
+
 /*24. Declare a function named longestWord which takes a single parameter str. This function will return the longest word in the string when you invoke this function.*/ 
