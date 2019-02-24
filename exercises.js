@@ -286,7 +286,7 @@ console.log(firstReverse(how));
 /*23. Declare a function named letterCap which takes a single parameter str. This function will capitalize the first letter of the string you pass in to invoke the function. 
 */
 
-let sentence = "success will be yours";
+let sentenceOne = "success will be yours";
 
 function letterCap(str){
    let step1 = str.charAt(0);
@@ -296,18 +296,35 @@ function letterCap(str){
    return step4;
 }
 
-console.log(letterCap(sentence));
+console.log(letterCap(sentenceOne));
 
 /*24. Declare a function named longestWord which takes a single parameter str. This function will return the longest word in the string when you invoke this function.*/ 
 
+// function longestWord(str){
+//    let x = str.split(' ');
+//    let n = 0;
+//    for(i=0;i<x.length;i++){
+//       if(x[i].length>n){
+//          n += x[i].length
+//       }
+//    }
+//    return n;
+// }
+// console.log(longestWord(sentence));
+
+let string = 'The longest word in this sentence is Onomatopeoia';
+
 function longestWord(str){
-   let x = str.split(' ');
-   let n = 0;
-   for(i=0;i<x.length;i++){
-      if(x[i].length>n){
-         n += x[i].length
+   let arrayOne = str.split(' ');
+   let num = 0;
+   let word;
+   for (i=0; i<arrayOne.length;i++){
+      if(arrayOne[i].length > num){
+         num = arrayOne[i].length;
+         if(num === arrayOne[i].length)
+         word = arrayOne[i];
       }
    }
-   return n;
+   return word;
 }
-console.log(longestWord(sentence));
+console.log(longestWord(string));
